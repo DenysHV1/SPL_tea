@@ -777,6 +777,9 @@ height: 75px;
 /* АДАПТИВНАЯ ВЕРСТКА */
 /* АДАПТИВНАЯ ВЕРСТКА */
 @media(max-width:1000px){
+	.container{
+		max-width: 960px;
+		}
 	.user-actions-item-search{
 	margin-left: 30px;
 	}
@@ -879,6 +882,9 @@ height: 75px;
 }
 
 @media(max-width:930px){
+	.container{
+		max-width: 890px;
+		}
 
 	.menu-list{
 		transform:translateY(-100%) ;
@@ -977,6 +983,9 @@ height: 75px;
 
 
 @media(max-width:768px){
+	.container{
+		max-width: 728px;
+		}
 
 	.menu-media{
 	display: flex;
@@ -1041,6 +1050,9 @@ height: 75px;
 
 @media(max-width:695px){	
 /* <section class="section-coment"> */
+.container{
+	max-width: 655px;
+	}
 	.coment-main{
 	flex-basis: 220px;
 }
@@ -1055,7 +1067,6 @@ height: 75px;
 @media(max-width:680px){
 	.container{
 	max-width: 640px;
-	margin: 0 auto;
 	}
 	.header-iner{
 	padding-left: 0px;
