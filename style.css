@@ -1,0 +1,1239 @@
+/* НАЧАЛО основнай настройки стилей для сайта */
+html{
+box-sizing: border-box;
+}
+
+/* ///// */
+
+*,*::after,*::before{
+box-sizing: inherit;
+}
+
+/* ///// */
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+/* ///// */
+ul{
+	list-style: none;
+}
+
+/* ///// */
+a{
+	text-decoration: none;
+}
+
+/* ///// */
+button{
+	border: none;
+	padding: 0;
+	background-color: transparent;
+}
+
+/* ///// */
+body{
+	
+	margin: 0;
+	padding: 0;
+	color: #151618;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.5;
+	font-family: "Open Sans", sans-serif;
+}
+/* font-family: "Cormorant", serif; */
+/* КОНЕЦ основнай настройки стилей для сайта */
+
+
+
+/* /НАЧАЛО/вертикальный контейнер/.../.../ всего содержимого */
+.container{
+	max-width: 1240px;
+	 margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/* /КОНЕЦ/вертикальный контейнер/.../.../ всего содержимого */
+
+
+/* НАЧАЛО стилей для всего меню сайта */
+/* НАЧАЛО стилей для всего меню сайта */
+
+/* ///// главный контейнер меню*/
+.header-iner{
+display: flex;
+justify-content: space-between;
+align-items: center;
+	min-height: 140px;
+	padding: 30px 0;
+	margin: 0%;
+}
+.header{
+	margin: 0%;
+}
+
+/* ///// лого*/
+.logo{
+	margin-bottom: 35px;
+}
+
+/* ///// пункты навигации*/
+.menu-list{
+display: flex;
+align-items: center;
+	gap: 0 65px;
+	font-weight: 400;
+	font-size: 18px;
+	margin-left: 85px;
+	z-index: 4;
+}
+
+/* ///// пункты иконок*/
+.user-actions{
+display: flex;
+align-items: center;
+gap: 0 20px;
+}
+
+/* //////// иконка поиска*/
+.user-actions-item-search{
+	margin-left: 80px;
+}
+
+/* ///// меню для меньших устройств*/
+.menu-media{
+display: none;
+z-index: 2;
+}
+
+.nav-media{
+	display: none;
+}
+.menu-close{
+	display: none;
+	z-index: 3;
+}
+
+/* //////// стили для меню меньших устройств*/
+.menu-media-img{
+	border: none;
+	outline: none;
+	background-color: transparent;
+}
+/* КОНЕЦ стилей для всего меню сайта */
+/* КОНЕЦ стилей для всего меню сайта */
+
+
+
+
+/* НАЧАЛО секции №1 */
+/* НАЧАЛО секции №1 */
+
+/* стили для первой секции */
+.top{
+background-image:url(pictures/Bg1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: bottom left;
+}
+
+/* ///// содержимое первой секции*/
+.top-inner{
+display: flex;
+justify-content: flex-end;
+flex-direction: column;
+	color: #fff;
+	font-weight: 400;
+	min-height: 500px;
+}
+
+/* //////// главное содержимое*/
+.top-title{
+	font-family: "Cormorant", serif;
+	font-size: 60px;
+	margin-bottom: 20px;
+	max-width: 780px;
+	line-height: 1;
+	font-weight: 400;
+}
+
+/* //////// дополнительное содержимое*/
+.top-text{
+	font-family: "Cormorant", serif;
+	font-size: 24px;
+	margin-bottom: 48px;
+	max-width: 560px;
+	line-height: normal;
+}
+/* КОНЕЦ секции №1 */
+/* КОНЕЦ секции №1 */
+
+
+
+/* НАЧАЛО секции №2 */
+/* НАЧАЛО секции №2 */
+.blockquote-text{
+text-align: center;
+	font-family: "Cormorant", serif;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 40px;
+	line-height: normal;
+	max-width: 704px;
+	margin: 150px auto;
+}
+/* КОНЕЦ секции №2 */
+/* КОНЕЦ секции №2 */
+
+
+
+/* НАЧАЛО секции №3 виды чая*/
+/* НАЧАЛО секции №3 виды чая*/
+.section-tea-main{
+	min-height: 325px;
+}
+.section-tea{
+	display: flex;
+	gap:0 30px;
+	justify-content: center;
+	padding: 0;
+	margin-bottom: 150px;
+}
+.name-for-tea{
+	text-align: center;
+	font-family: "Cormorant", serif;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+}
+.tea-title{
+	text-align: center;
+	font-family: "Cormorant", serif;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 48px;
+	color:rgb(21, 22, 24)
+}
+
+.img-tea{
+	max-width: 208px;
+	max-height: 247px;
+	width: 100%;
+}
+/* КОНЕЦ секции №3 виды чая*/
+/* КОНЕЦ секции №3 виды чая*/
+
+
+
+
+/* НАЧАЛО секции №4 коментарии*/
+/* НАЧАЛО секции №4 коментарии*/
+
+.section-coment{
+	background-color: rgb(247, 242, 234);
+	padding: 60px 0;
+}
+.comment-title{
+	text-align: center;
+	font-family: "Cormorant", serif;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 48px;
+	padding-bottom: 60px;
+}
+.comants{
+	display: flex;
+	justify-content:center;
+	gap: 26px;
+	margin: 0;
+	padding: 0;
+}
+
+.coment-main{
+	flex-basis: 280px;
+}
+.coment{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size:16px;
+	line-height:22px;
+	color:rgb(21, 22, 24);
+	text-align: left;
+	max-width: 280px;
+	max-height: 169px;
+	font-style: italic;
+	
+	
+}
+.coment-name{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 27px;
+	font-style: normal;
+}
+
+blockquote{
+	margin: 0;
+	padding: 0;
+}
+/* КОНЕЦ секции №4 коментарии*/
+/* КОНЕЦ секции №4 коментарии*/
+
+
+
+
+/* НАЧАЛО секции №5 блог*/
+/* НАЧАЛО секции №5 блог*/
+
+.section-blog{
+	margin: 150px 0;
+	display: flex;
+	justify-content: center;
+	padding: 0;
+}
+
+.blog-title{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-top:0;
+	padding-bottom: 60px;
+	font-family: "Cormorant", serif;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 48px;
+	color: rgb(21, 22, 24);
+}
+.blog{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 40px 58px;	
+}
+
+.blog-info{
+	display: flex;
+	gap: 20px;
+	max-width: 542px;
+	max-height: 180px;
+}
+
+/* содержимое блога */
+.blog-info-inside{
+	display: flex;
+	flex-direction: column;
+}
+
+.blog-text1{
+	font-family: "Cormorant", serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 29px;
+	height: 86px;
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 10px;
+}
+
+.blog-text2{
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 18px;
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 48px;
+}
+
+.info-open{
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 18px;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.blog-img{
+	max-width: 280px;
+	max-height: 180px;
+}
+/* содержимое блога */
+
+.blog-button{
+	padding: 12px 41px;
+	display: flex;
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	border:1px solid rgb(21, 22, 24);
+}
+.blog-button-word{
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 27px;
+}
+/* КОНЕЦ секции №5 блог*/
+/* КОНЕЦ секции №5 блог*/
+
+
+
+
+/* НАЧАЛО секции №6 mail*/
+/* НАЧАЛО секции №6 mail*/
+.mail{
+	background-color: rgb(247, 242, 234);
+	background-image: url(pictures/mail-png-bg.png);
+	background-size: cover;
+	margin-bottom: 150px;
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	
+
+}
+.mail-inside{
+
+}
+
+.mail-title{
+	display: flex;
+	justify-content: left;
+	text-align: left;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	font-family: "Cormorant", serif;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 48px;
+	color: rgb(21, 22, 24);
+}
+.mail-inside-info{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 100px;
+	gap: 40px;
+}
+
+.mail-info-text{
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 150%;
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 48px;
+	color: rgb(21, 22, 24);
+	max-width: 580px;
+	max-height: 117px;
+}
+
+
+/* форма*/
+.checkbox-text{
+	font-family: "Open Sans", sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	line-height: 18px;
+	padding-top: 12px;
+	color: rgb(21, 22, 24);
+}
+
+.email-button{
+	background-color: #fff;
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 27px;
+	padding: 12px 41px;
+	border: 1px solid rgb(21, 22, 24);
+	cursor: pointer;
+
+	
+
+}
+
+.mail-form-input{
+	width: 439px;
+	height: 42px;
+	background-color:transparent;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-color: 1px solid rgb(184, 181, 139);
+	padding-left: 15px;
+	padding-bottom: 3px;
+	align-items: end;
+	color: #151618;
+	
+
+}
+.mail-form-input::placeholder{
+	color: rgb(184, 181, 139);
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 150%;
+	font-family: "Open Sans", sans-serif;
+	
+}
+
+.checkbox-text{
+	display: flex;
+	gap: 4px;
+	height: 54px;
+}
+.checkbox{
+	align-items: start;
+}
+.checkbox:checked{
+	background-color: rgb(225, 0, 0);
+}
+
+.text-in-checkbox{
+	display: flex;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 18px;
+	font-family: "Open Sans", sans-serif;
+	text-align: start;
+	max-width: 560px;
+}
+
+.mail-form{
+	max-width: 580px;
+	max-height: 117px;
+}
+
+
+
+/* форма*/
+/* КОНЕЦ секции №6 mail*/
+/* КОНЕЦ секции №6 mail*/
+
+.prioritise{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 150px;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+.prioritise-title{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-top: 0;
+	padding-bottom: 60px;
+	font-family: "Cormorant", serif;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 48px;
+	color: rgb(21, 22, 24);
+}
+.prioritise-inside{
+	display: flex;
+	gap:30px 49px;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+
+	padding: 0 0;
+}
+.prioritise-inside-content1{
+text-align: center;
+max-width: 248px;
+max-height: 178px;
+
+}
+.prioritise-inside-content2{
+	text-align: center;
+	max-width: 257px;
+	max-height: 178px;
+	
+}
+.prioritise-inside-content3{
+	text-align: center;
+	max-width: 294px;
+	max-height: 170px;
+	
+}
+.prioritise-inside-content4{
+	text-align: center;
+	max-width: 253px;
+	max-height: 172px;
+	
+}
+
+.prioritise-inside-img{
+padding-top: 30px;
+width: 75px;
+height: 75px;
+}
+
+.prioritise-inside-text2{
+	font-family: "Open Sans", sans-serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 27px;
+	padding-top: 10px;
+	color: rgb(21, 22, 24);
+}
+
+.prioritise-inside-text1{
+	font-family: "Open Sans", sans-serif;
+	font-size: 30px;
+	font-weight: 300;
+	line-height: 41px;
+	color: rgb(21, 22, 24);
+}
+
+/* Последняя часть сайта - подвал */
+
+/* основные контейнеры */
+.footer{
+	background-color: rgb(247, 242, 234);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding-top: 100px;
+	padding-right: 0;
+	padding-left: 0;
+
+}
+.footer-top{
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+	margin: 0;
+
+	
+}
+.footer-bottom{
+	display: flex;
+	margin-top: 200px;
+	gap: 192px;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+
+}
+.footer-bottom-img{
+	display: flex;
+	gap: 20px;
+	height: 20px;
+	align-items: center;
+}
+.footer-nav-products{
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	
+	height: 269px;
+	
+}
+.footer-nav-company{
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	
+	height: 353px;
+	
+}
+.footer-blockquote{
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	width: 269px;
+	height: 163px;
+	
+	margin-top: 79px;
+	gap: 20px;
+}
+.footer-nav-info{
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	width: 270px;
+	height: 287px;
+}
+/* основные контейнеры */
+
+/* внутренние контейнеры */
+.footer-nav-products-name{
+	margin-bottom: 50px;
+	font-family: "Cormorant", serif;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+}
+.footer-nav-products-item-word{
+	
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 22px;
+}
+.footer-nav-products-item{
+	margin-bottom: 20px;
+	
+	
+}
+.footer-nav-company-name{
+	margin-bottom: 50px;
+	font-family: "Cormorant", serif;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+}
+.footer-nav-company-item-word{
+	
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 22px;
+}
+.footer-nav-company-item{
+	margin-bottom: 20px;
+}
+.footer-blockquote-text{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 20px;
+	font-style: italic;
+}
+
+.footer-blockquote-autor{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.footer-nav-info-title{
+	font-family: "Cormorant", serif;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	margin-bottom: 50px;
+}
+
+.footer-nav-info-text{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 18px;
+}
+
+.footer-nav-info-contakt{
+	display: flex;
+}
+
+.footer-nav-info-email-number{
+	display: flex;
+	flex-direction: column;
+	gap: 20px 40px;
+}
+.footer-nav-info-number{
+	display: flex;
+	gap: 10px;
+}
+
+.footer-nav-info-groups{
+	display: flex;
+	gap: 20px;
+	max-height: 22px;
+	margin-top: 31px;
+}
+
+.info-number{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	line-height: 18px;
+}
+.footer-bottom-text{
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 22px;
+	height: 20px;
+}
+
+
+
+/* внутренние контейнеры */
+
+
+
+
+
+
+/* АДАПТИВНАЯ ВЕРСТКА */
+/* АДАПТИВНАЯ ВЕРСТКА */
+@media(max-width:1000px){
+	.user-actions-item-search{
+	margin-left: 30px;
+	}
+	.logo{
+	margin-bottom: 0;
+	}
+	.header-iner{
+	min-height: auto;
+	}
+	.blockquote-text{
+	margin-top: 120px;
+	margin-bottom: 135px;
+	}
+	.container{
+	max-width: 960px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+	.logo{
+	margin:auto auto;
+	}
+	.section-tea{
+		gap:0;
+	}
+	.section-tea{
+		margin-bottom: 120px;
+		gap: 0px;
+	}
+	/* <section class="section-coment"> */
+	.coment-main-in-930px{
+		display: none;
+	}
+	.comment-title{
+		margin-bottom: 0;
+		margin-top: 0;
+	}
+	.blog-img{
+		max-width: 230px;
+		max-height: 153px;
+	}
+
+	.blog-text2{
+
+		margin-bottom: 21px;
+	}
+	.blog-info{
+		max-width: 460px;
+		max-height: 153px;
+		margin: 0;
+		padding: 0;
+	}
+	.blog{
+		gap: 67px 20px;
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: 0;
+		margin-right: 0;
+		max-width: 940px;
+	}
+	.blog-text1{
+		max-width: 210px;
+	}
+	.section-blog{
+		margin: 150px 0;
+		padding: 0;
+		width: 100%;
+	}
+.mail-inside{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.mail-inside-info{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.mail-info-text{
+	max-width: 780px;
+	max-height: 90px;
+	text-align: center;
+}
+.mail-title{
+
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.prioritise-inside{
+	
+	gap:40px 200px;
+
+}
+.footer-top{
+	flex-wrap: wrap;
+}
+
+
+}
+
+@media(max-width:930px){
+
+	.menu-list{
+		transform:translateY(-100%) ;
+	position: absolute;
+	background-color: #FFFFFF;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-top: 60px;
+	padding-right: 45px;
+	margin: 0 auto;
+	width: 400px;
+	top:0;
+	left: auto;
+	right: auto;
+	transition: transform .6s ease;
+
+	box-shadow: 1px 1px 2px rgb(174, 174, 174);
+	
+	}
+	.menu-list-open{
+		transform:translateY(0%) ;
+	}
+	.menu-close{
+		display: flex;
+	}
+
+	.menu-close-btn{
+		position: absolute;
+		top:20px;
+		right: 20px;
+	}
+	.menu-item{
+		margin-bottom: 30px;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 29px;
+		font-family: Cormorant, serif;
+	}
+	.nav-media{
+		display: block;
+		margin: 0 -40px;
+		margin-top: 60px;
+		padding-top: 60px;
+		width: 300px;
+		
+		border-top: 2px solid #dedede;
+	}
+	.menu-item-media{
+		margin-left: -40px;
+		margin-bottom: 35px;
+		font-size: 13px;
+		font-weight: 300;
+		line-height: 18px;
+	}
+	.user-actions-media{
+		margin-left: -40px;
+		display: flex;
+		margin-top: 20px;
+		margin-bottom: 18px;
+		justify-content: space-evenly;
+		
+	}
+	.user-actions-item-media{
+		max-width: 20px;
+	}
+
+	.menu{
+		margin-right: 0;
+		order: -1;
+	}
+	.header-iner{
+	margin:0 44px;
+	}
+	.logo{
+		margin:auto auto;
+		}
+	.menu-media{
+	display: flex;
+		order: -1;
+	}
+	.mobile-menu-bg-close{
+		display: none;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		background-color: rgba(0,0,0, .5);
+		z-index: 1;
+	}
+	.mobile-menu-bg-open{
+		display: block;
+	}
+}
+
+
+@media(max-width:768px){
+
+	.menu-media{
+	display: flex;
+	justify-content: center;
+	}
+
+	.blockquote-text{
+	max-width: 640px;
+	margin: 120px auto;
+	font-weight: 300;
+	}
+	.top-title{
+	max-width: 684px;
+	max-height:120px ;
+	font-size: 60px;
+	line-height: 100%;
+	font-weight: 400;
+	}
+	.top-text{
+	max-width: 557px;
+	max-height:58px ;
+	font-size: 24px;
+	line-height: 29px;
+	font-weight: 400;
+	}
+	.container{
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+
+	.section-tea{
+		flex-wrap: wrap;
+		gap:6px;
+
+
+}
+/* <section class="section-coment"> */
+.comants{
+	flex-wrap: wrap;
+	gap:30px 76px;
+}
+.coment-main-in-930px{
+	display: flex;
+	flex-direction: column;
+}
+/* <section class="mail"> */
+.mail-info-text{
+	max-width: 640px;
+	max-height: 120px;
+	text-align: center;
+}
+
+/* <section class="mail"> */
+.prioritise-inside{
+	
+	gap:40px 89px;
+
+}
+}
+
+
+
+@media(max-width:695px){	
+/* <section class="section-coment"> */
+	.coment-main{
+	flex-basis: 220px;
+}
+.comants{
+
+	gap: 20px;
+}
+
+}
+
+
+@media(max-width:680px){
+	.container{
+	max-width: 640px;
+	margin: 0 auto;
+	}
+	.header-iner{
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	.user-actions-item-search{
+		margin-right: 20px;
+	}
+
+}
+
+@media(max-width:640px){
+	.top-title{
+	font-size: 40px;
+	}
+/* <section class="section-coment"> */
+	.section-coment{
+		padding: 50px 0;
+	}
+	.mail-form-input{
+		width: 315px;
+		height: 50px;
+
+	}
+	.mail{
+		padding-left: 0;
+		padding-right: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+
+
+@media(max-width:480px){
+
+
+	.header-iner{
+	margin:0 10px;
+	}
+	.top-title{
+	max-width: 450px;
+	max-height:96px ;
+	font-size: 40px;
+	line-height: 48px;
+	}
+	.top-text{
+	max-width: 450px;
+	max-height:58px ;
+	font-size: 24px;
+	line-height: 29px;
+	}
+	.blockquote-text{
+	max-width: 376px;
+	max-height:44px ;
+	font-size: 16px;
+	line-height: 22px;
+	margin: 60px auto;
+	}
+	.container{
+	max-width: 460px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0 auto;
+	}
+	.logo1{
+		max-width: 39px;
+	}
+	.comment-title{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.section-tea{
+		margin-bottom: 60px;
+	
+		gap: 0px;
+	}
+/* <section class="mail"> */
+.mail-info-text{
+	max-width: 460px;
+	max-height: 72px;
+	text-align: center;
+	font-size: 13px;
+	line-height: 18px;
+}
+.mail-title{
+
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+
+/* <section class="mail"> */
+.prioritise-inside{
+	
+	gap:60px 200px;
+
+}
+}
+
+@media(max-width:430px){
+	.top-title{
+		max-width: 340px;
+		max-height:58px ;
+		font-size: 24px;
+		line-height: 29px;
+		}
+		.top-text{
+		max-width: 332px;
+		max-height:36px ;
+		font-size: 13px;
+		line-height: 18px;
+		}
+		.blockquote-text{
+		max-width: 340px;
+		max-height:44px ;
+		font-size: 16px;
+		line-height: 22px;
+		margin: 70px auto;
+		}
+		.top-inner{
+			min-height: 367px;
+		}
+
+		/* <section class="section-coment"> */
+		.coment-main-in-930px, .coment-in-360px{
+			display: none;
+		}
+		.section-coment{
+			padding: 30px 0;
+		}
+		.coment-main{
+			flex-basis: 100%;
+			
+		}
+		.coment{
+
+			max-width: 340px;
+			max-height: 110px;
+		}
+}
+
+
+
+
+@media(max-width:360px){
+	.header-iner{
+	margin:0 10px;
+	}
+	.top-title{
+	margin-bottom: 10px;	
+	}
+	.menu-list{
+		width: 280px;
+	}
+	.tea-title{
+	font-size: 24px;
+	line-height: 29px;
+	}
+
+	.comment-title{
+
+		font-size: 24px;
+		line-height: 29px;
+		padding-top: 50px;
+		padding-bottom: 30px;
+	}
+	.section-tea{
+		margin-bottom: 80px;
+	}
+	.coment-main{
+		max-height: 125px;
+	
+	}
+	.comants{
+		gap: 30px 0;
+	}
+
+}
+
+/* АДАПТИВНАЯ ВЕРСТКА */
+/* АДАПТИВНАЯ ВЕРСТКА */
