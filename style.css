@@ -614,6 +614,7 @@ height: 75px;
 }
 .footer-bottom{
 	display: flex;
+	flex-wrap: wrap;
 	margin-top: 200px;
 	gap: 192px;
 	margin-bottom: 0;
@@ -1164,6 +1165,11 @@ height: 75px;
 .prioritise-inside{
 	
 	gap:60px 200px;
+
+}
+
+.footer-bottom-img{
+	margin-top: 0;
 
 }
 }
