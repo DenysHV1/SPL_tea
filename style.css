@@ -1102,7 +1102,9 @@ height: 75px;
 
 
 @media(max-width:480px){
-
+	.container{
+		max-width: 440px;
+		}
 
 	.header-iner{
 	margin:0 10px;
@@ -1167,6 +1169,9 @@ height: 75px;
 }
 
 @media(max-width:430px){
+	.container{
+		max-width: 390px;
+		}
 	.top-title{
 		max-width: 340px;
 		max-height:58px ;
@@ -1212,6 +1217,9 @@ height: 75px;
 
 
 @media(max-width:360px){
+	.container{
+		max-width: 320px;
+		}
 	.header-iner{
 	margin:0 10px;
 	}
