@@ -1,3 +1,3 @@
-# Solo-project_lending_tea
+# SPL_tea
 
 SPL - solo project lending
