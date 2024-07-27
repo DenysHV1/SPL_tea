@@ -36,10 +36,11 @@ button {
 }
 
 /* ///// */
-body {
+.body {
   margin: 0;
   padding: 0;
   color: #151618;
+  background-color: #fff;
   font-size: 20px;
   font-weight: 300;
   line-height: 1.5;
@@ -56,6 +57,62 @@ body {
   padding-right: 20px;
 }
 /* /КОНЕЦ/вертикальный контейнер/.../.../ всего содержимого */
+
+.body.dark-theme{
+	color: #ffffff;
+	background: -webkit-linear-gradient(90deg,#8e7cc3,#41326d,#000000); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(90deg,#8e7cc3,#41326d,#000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.section-coment.dark-theme{
+	color: #ffffff;
+	background: -webkit-linear-gradient(90deg,#8e7cc3,#41326d,#000000); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(90deg,#8e7cc3,#41326d,#000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.footer.dark-theme {
+	color: #ffffff;
+	background: -webkit-linear-gradient(90deg,#8e7cc3,#41326d,#000000); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(90deg,#8e7cc3,#41326d,#000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+.white {
+	display: none;
+}
+
+.white.is-open {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: -webkit-linear-gradient(90deg,#c0d8f5,#c3dffd,#a3c8fd,#8ebaf7,#649fed); /* Chrome 10-25, Safari 5.1-6 */ background: linear-gradient(90deg,#c0d8f5,#c3dffd,#a3c8fd,#8ebaf7,#649fed); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	color: #000000;
+	font-weight: 900;
+	position: fixed;
+	right: 5px;
+	top: 5px;
+}
+
+.dark{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: linear-gradient(90deg,#0f1116,#1a1b22);
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	color: #fff;
+	font-weight: 900;
+	position: fixed;
+	right: 5px;
+	top: 5px;
+}
+
+.dark.is-close{
+	display: none;
+}
 
 /* НАЧАЛО стилей для всего меню сайта */
 /* НАЧАЛО стилей для всего меню сайта */
@@ -226,6 +283,8 @@ body {
   padding: 60px 0;
   height: auto;
 }
+
+
 .comment-title {
   text-align: center;
   font-family: "Cormorant", serif;
